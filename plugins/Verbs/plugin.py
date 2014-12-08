@@ -60,6 +60,12 @@ class Verbs(callbacks.Plugin):
 		self.phongs = ["does horrible, unspeakable things to", "does kind, pleasant things for", "offers a trade and research treaty to", "colony-spams the systems belonging to"]
 		self.definitions = {
 				# space empires games
+				"se1": "The original Space Empires game. Never actually released apart from an SE1/2/3 bundle. The black sheep of the Space Empires family, it didn't even have designable ships or warp points!",
+				"sei": "The original Space Empires game. Never actually released apart from an SE1/2/3 bundle. The black sheep of the Space Empires family, it didn't even have designable ships or warp points!",
+				"se2": "Space Empires II. The second game in the Space Empires series, released in the mid-1990s. Only supported up to four players, and didn't have online multiplayer or moddability. Still quite a bit of fun back in the day!",
+				"seii": "Space Empires II. The second game in the Space Empires series, released in the mid-1990s. Only supported up to four players, and didn't have online multiplayer or moddability. Still quite a bit of fun back in the day!",
+				"se3": "Space Empires III. The third game in the Space Empires series, released in 1997. Arguably the most balanced Space Empires game, but held back by limited moddability.",
+				"seiii": "Space Empires III. The third game in the Space Empires series, released in 1997. Arguably the most balanced Space Empires game, but held back by limited moddability.",
 				"se4": "Space Empires IV. The fourth game in the Space Empires series, released in 2000. Considered to be the high point of the series by many (hipsters?), much like Super Smash Bros Melee, which was coincidentally released around the same time.",
 				"seiv": "Space Empires IV. The fourth game in the Space Empires series, released in 2000. Considered to be the high point of the series by many (hipsters?), much like Super Smash Bros Melee, which was coincidentally released around the same time.",
 				"se5": "Space Empires V. The fifth game in the Space Empires series, released in 2006. Considered to be the low point of the series by many (hipsters?), much like Super Smash Bros Brawl, which was coincidentally released around the same time.",
@@ -67,6 +73,7 @@ class Verbs(callbacks.Plugin):
 				"se10": "Space Empires X. The tenth game in the Space Empires series, released in 2069. This game introduces a large number of innovations to the series, such as first person perspective and haptic feedback. It was the most popular game in the series by far, being played by billions of people around the world.",
 				"sex": "Space Empires X. The tenth game in the Space Empires series, released in 2069. This game introduces a large number of innovations to the series, such as first person perspective and haptic feedback. It was the most popular game in the series by far, being played by billions of people around the world.",
 				"starfury": "a spinoff of the Space Empires series in the action-RPG genre, released in 2003. Now you too can be a starship captain, and crash your ship into asteroids the size of planets!",
+				"battle for supremacy": "essentially Farmville with a Space Empires skin on it. Don't even bother.",
 
 				# websites
 				"pbw": "a website where you can play Space Empires (as well as several other turn-based strategy games) online, using an automated PBEM-style simultaneous turns system: http://pbw.spaceempires.net",
@@ -76,10 +83,17 @@ class Verbs(callbacks.Plugin):
 				"stock": "the game without any mods. As the series progressed, this got less and less balanced... fortunately the game also got more and more moddable!",
 				"cb": "Carrier Battles. Go on, ask me more!",
 				"carrier battles": "Suicide Junkie's total conversion of SE4 to give it a sort of \"World War II in space\" feel. It plays nothing at all like stock. Go on, give it a try! http://imagemodserver.duckdns.org/other/MM/SE4/Mods/CarrierBattles/",
-				"stellar warfare": "not a Star Wars mod, despite what it sounds like. It's a total conversion for SE5 to make it more tactical, created by ekolis. http://edkolis.exofire.net/swmod.php",
-				"invasion": "an SE4 mod by Combat Wombat which features MORE OF EVERYTHING, because more stuff is good!",
+				"stellar warfare": "not a Star Wars mod, despite what it sounds like. It's a total conversion for SE5 (inspired somewhat by DJAS) to make it more tactical, created by ekolis. http://edkolis.exofire.net/swmod.php",
+				"invasion": "an SE4 mod by Combat Wombat which features MORE OF EVERYTHING, because more stuff is good! But different stuff from all the other kitchen sink mods...",
 				"bm": "Balance Mod. Go on, ask me more!",
 				"balance mod": "a mod for SE5 created by Captain Kwok, which may have singlehandedly saved SE5, since the stock game was so horribly imbalanced.",
+				"djas": "arthurtuxedo's SE5 mod which introduces the concept of \"tiered\" techs, linked via an extremely expensive theoretical prerequisite, leading to the dilemma of going for uber tech (leaving you vulnerable in the mean time) or buffing your current techs.",
+				"warp 10 mod": "a Star Trek themed mod for SE5 originally designed by ekolis but massively reworked by marhawkman to feature an enormous collection of unique races and techs from the Star Trek universe. Seriously, who the heck are the \"Baku\" anyway, and what's a \"chronophasic shield generator\"?!",
+				"dark nova": "an SE4 mod by bearclaw which features MORE OF EVERYTHING, because more stuff is good! But different stuff from all the other kitchen sink mods...",
+				"dn4": "Dark Nova. Go on, ask me more!",
+				"fusion mod": "an SE4 mod by BlackKnyght which features MORE OF EVERYTHING, because more stuff is good! But different stuff from all the other kitchen sink mods...",
+				"devnull": "an SE4 mod by devnullicus and Rollo which features MORE OF EVERYTHING, because more stuff is good! But different stuff from all the other kitchen sink mods...",
+				"eclipse mod": "an SE4 mod by KevinArisa which features MORE OF EVERYTHING, because more stuff is good! But different stuff from all the other kitchen sink mods...",
 
 				# people
 				"sj": "Suicide Junkie. Go on, ask me more!",
@@ -100,6 +114,8 @@ class Verbs(callbacks.Plugin):
 				# races
 				"phong": "the most industrious race of sentient beings in the entire galaxy. We're friendly. Also we have crystalline tech. Did I mention we're friendly? Can I colonize those rock planets you're not using?",
 				"zynarran": "the mortal enemy of the Phong.",
+				"eee": "a pretty friendly race. But don't get on their bad side. Their anti-proton beams will make you scream EEEEEEEEEEEEEEEEEE!!!",
+				"dancing phong": "the most beautiful dancers in the galaxy - go on, take a look! http://imagemodserver.duckdns.org/other/MM/SE4/otherimages/DancingPhong.gif",
 
 				# fan projects				
 				"freee": "an open-source clone of SE4 being developed by Combat Wombat and ekolis. https://bitbucket.org/ekolis/freee",
@@ -109,9 +125,17 @@ class Verbs(callbacks.Plugin):
 				"startext": "a early name for Vector Tactics.",
 				"vector tactics": "SJ's remake of the old BEGIN game from back in the '90s, where you type commands like \"fire all torpedo\" and \"helm 180 5\" to fly a starship and fight battles with other starships.",
 				"thancs": "Tactical Hex And Newtonian Combat Simulator. SJ's followup to Vector Tactics, this is a more detailed starship combat simulator. You now issue commands with keyboard and mouse, and you can design and build your own ships!",
+				"autohost": "a program you can use to automatically process turns for PBW games in the background. http://imagemodserver.duckdns.org/other/MM/Autohost-IIIexe.rar",
+				"autoclient": "a program you can use to automatically download and launch turns for PBW games. https://github.com/se5a/PBWAutoClient",
+				"autopbw": "a program which combines the functionality of both the autohost and the autoclient, allowing you to both host and play games without manually downloading and uploading files. https://bitbucket.org/ekolis/autopbw",
 
 				# buzzwords
 				"eorging": "aggressively colonizing unclaimed planets in your ally's space to gain an economic advantage. May or may not be followed by a sudden backstab.",
+				"glassing": "nuking a planet from orbit. So called because nukes can turn soil to glass...",
+				"molly": "a ringworld. Apparently there was this actress called Molly Ringwald or something? Don't ask me...",
+				"turtling": "developing high level stellar manipulation tech, then closing all the warp points to your systems and building gravitational shields to prevent new warp points from being opened. Essentially forces the game into a stalemate, so it's generally frowned upon.",
+				"polaron man": "a superhero who can skip through shields like a polaron can. Is he a dot or is he a speck? If he's in a black hole does he get whacked? And what does Triangle Man think of him? Nobody knows...",
+				"moo3": "a game that has an even worse GUI than SE5. What, you didn't think that was possible?",
 			}
 		self.smashes = [
 				  "falcon PAWNCHES",
