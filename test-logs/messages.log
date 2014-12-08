@@ -1,0 +1,1479 @@
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Quote.test.QuoteTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+DEBUG getopts: {'nicks': None}
+DEBUG getoptL: ['nicks']
+DEBUG getopts: {'nicks': None}
+DEBUG getoptL: ['nicks']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+DEBUG getopts: {'nicks': None}
+DEBUG getoptL: ['nicks']
+DEBUG getopts: {'nicks': None}
+DEBUG getoptL: ['nicks']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'nick': None, 'host': None, 'exact': None, 'user': None}
+DEBUG getoptL: ['nick', 'host', 'exact', 'user']
+DEBUG getopts: {'nick': None, 'host': None, 'exact': None, 'user': None}
+DEBUG getoptL: ['nick', 'host', 'exact', 'user']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG getopts: {'from': <context for something>, 'proto': <context for something>, 'near': <context for something>, 'without': <context for something>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['from=', 'proto=', 'near=', 'without=', 'nolimit', 'with=']
+DEBUG getopts: {'from': <context for something>, 'proto': <context for something>, 'near': <context for something>, 'without': <context for something>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['from=', 'proto=', 'near=', 'without=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'filter': None, 'language': <context for something>}
+DEBUG getoptL: ['filter', 'language=']
+DEBUG getopts: {'filter': None, 'language': <context for something>}
+DEBUG getoptL: ['filter', 'language=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'user': <context for otherUser>}
+DEBUG getoptL: ['user=']
+DEBUG getopts: {'user': <context for otherUser>}
+DEBUG getoptL: ['user=']
+DEBUG getopts: {'priority': <context for ('int', 'priority')>}
+DEBUG getoptL: ['priority=']
+DEBUG getopts: {'regexp': <context for regexpMatcher>}
+DEBUG getoptL: ['regexp=']
+DEBUG getopts: {'priority': <context for ('int', 'priority')>}
+DEBUG getoptL: ['priority=']
+DEBUG getopts: {'regexp': <context for regexpMatcher>}
+DEBUG getoptL: ['regexp=']
+CRITICAL Beginning test case Web.test.WebTestCase.testDoctype
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Outgoing message: WHO :#test
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG #test :@doctype ftp://ftp.cdrom.com/pub/linux
+DEBUG findCallbacksForArgs: [(<Web Web <Web.plugin.Web object at 0x0000000003351C88>>, ['doctype'])]
+DEBUG Spawning thread Thread #1 (for Web.['doctype']) (args: (['doctype'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000003351B70>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('#test', '@doctype ftp://ftp.cdrom.com/pub/linux')), ['ftp://ftp.cdrom.com/pub/linux']))
+DEBUG Spawning thread "Thread #1 (for Web.['doctype'])".
+INFO doctype called by "test!user@host.domain.tld".
+DEBUG args before <context for httpUrl>: ['ftp://ftp.cdrom.com/pub/linux']
+DEBUG Error return: Error: 'ftp://ftp.cdrom.com/pub/linux' is not a valid http url.
+DEBUG Adding new driver Schedule.
+DEBUG Outgoing message: PRIVMSG #test :test: Error: 'ftp://ftp.cdrom.com/pub/linux' is not a valid http url.
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG #test :@doctype http://www.slashdot.org/
+DEBUG findCallbacksForArgs: [(<Web Web <Web.plugin.Web object at 0x0000000003351C88>>, ['doctype'])]
+DEBUG Spawning thread Thread #2 (for Web.['doctype']) (args: (['doctype'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000003358320>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('#test', '@doctype http://www.slashdot.org/')), ['http://www.slashdot.org/']))
+DEBUG Spawning thread "Thread #2 (for Web.['doctype'])".
+INFO doctype called by "test!user@host.domain.tld".
+DEBUG Spawning thread "Thread #3 (for snarfing http://www.slashdot.org/)".
+DEBUG args before <context for httpUrl>: ['http://www.slashdot.org/']
+DEBUG args after <context for httpUrl>: []
+DEBUG State before call: State(args=['http://www.slashdot.org/'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG #test :test: <!DOCTYPE html>
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG #test :@doctype http://moobot.sf.net/
+DEBUG findCallbacksForArgs: [(<Web Web <Web.plugin.Web object at 0x0000000003351C88>>, ['doctype'])]
+DEBUG Spawning thread Thread #4 (for Web.['doctype']) (args: (['doctype'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000003358D30>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('#test', '@doctype http://moobot.sf.net/')), ['http://moobot.sf.net/']))
+DEBUG Spawning thread "Thread #4 (for Web.['doctype'])".
+INFO doctype called by "test!user@host.domain.tld".
+DEBUG Spawning thread "Thread #5 (for snarfing http://moobot.sf.net/)".
+DEBUG args before <context for httpUrl>: ['http://moobot.sf.net/']
+DEBUG args after <context for httpUrl>: []
+DEBUG State before call: State(args=['http://moobot.sf.net/'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG #test :test: HTTP Error 503: Service Unavailable
+CRITICAL Beginning test case Web.test.WebTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testHeaders
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testNetcraft
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testNonSnarfing
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testNonSnarfingRegexpConfigurable
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testSize
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testTitle
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Web.test.WebTestCase.testTitleSnarfer
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Network.test.NetworkTestCase.testCommand
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :network command test echo 1
+DEBUG findCallbacksForArgs: [(<Network Network <Network.plugin.Network object at 0x0000000003227898>>, ['network', 'command'])]
+INFO network command called by "test!user@host.domain.tld".
+DEBUG args before <context for admin>: ['test', 'echo', '1']
+DEBUG args after <context for admin>: ['test', 'echo', '1']
+DEBUG args before <context for ('networkIrc', True)>: ['test', 'echo', '1']
+DEBUG args after <context for ('networkIrc', True)>: ['echo', '1']
+DEBUG args before <many for something>: ['echo', '1']
+DEBUG args after <many for something>: ['1']
+DEBUG args before <many for something>: ['1']
+DEBUG args after <many for something>: []
+DEBUG State before call: State(args=[<irclib.Irc object for test>, ['echo', '1']], kwargs={}, channel=None)
+DEBUG findCallbacksForArgs: [(<Utilities Utilities <Utilities.plugin.Utilities object at 0x00000000030BCA20>>, ['echo'])]
+INFO echo called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['1']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['1'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Network.test.NetworkTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+CRITICAL Beginning test case Network.test.NetworkTestCase.testNetworks
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'ssl': None}
+DEBUG getoptL: ['ssl']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :networks
+DEBUG findCallbacksForArgs: [(<Network Network <Network.plugin.Network object at 0x0000000003227080>>, ['networks'])]
+INFO networks called by "test!user@host.domain.tld".
+DEBUG State before call: State(args=[], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Lart.test.LartTestCase.testAdd
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Lart.test.LartTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Lart.test.LartTestCase.testLart
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Lart.test.LartTestCase.testMeInReason
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :test!user@host.domain.tld JOIN :#test
+DEBUG Outgoing message: MODE :#test
+DEBUG Irc.takeMsg throttling.
+CRITICAL Beginning test case Ctcp.test.CtcpTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'nicks': None}
+DEBUG getoptL: ['nicks']
+CRITICAL Beginning test case Note.test.NoteTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :register inkedmn bar
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x000000000342BC18>>, ['register'])]
+INFO register called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'bar']
+DEBUG args after <context for private>: ['inkedmn', 'bar']
+DEBUG args before <context for something>: ['inkedmn', 'bar']
+DEBUG args after <context for something>: ['bar']
+DEBUG args before <context for something>: ['bar']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['inkedmn', 'bar'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :hostmask add inkedmn test2!bar@baz
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x000000000342BC18>>, ['hostmask', 'add'])]
+INFO hostmask add called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args before <context for otherUser>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for otherUser>: ['test2!bar@baz']
+DEBUG args before <optional for something>: ['test2!bar@baz']
+DEBUG args after <optional for something>: []
+DEBUG args before <additional for something>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 'test2!bar@baz', ''], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+CRITICAL Beginning test case Note.test.NoteTestCase.testList
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :register inkedmn bar
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x00000000033764E0>>, ['register'])]
+INFO register called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'bar']
+DEBUG args after <context for private>: ['inkedmn', 'bar']
+DEBUG args before <context for something>: ['inkedmn', 'bar']
+DEBUG args after <context for something>: ['bar']
+DEBUG args before <context for something>: ['bar']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['inkedmn', 'bar'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :hostmask add inkedmn test2!bar@baz
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x00000000033764E0>>, ['hostmask', 'add'])]
+INFO hostmask add called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args before <context for otherUser>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for otherUser>: ['test2!bar@baz']
+DEBUG args before <optional for something>: ['test2!bar@baz']
+DEBUG args after <optional for something>: []
+DEBUG args before <additional for something>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 'test2!bar@baz', ''], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note list
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000002D68390>>, ['note', 'list'])]
+INFO note list called by "foo!bar@baz".
+DEBUG args before <context for user>: []
+DEBUG args after <context for user>: []
+DEBUG args before <getopts for {'from': 'otherUser', 'old': '', 'sent': '', 'to': 'otherUser'}>: []
+DEBUG args after <getopts for {'from': 'otherUser', 'old': '', 'sent': '', 'to': 'otherUser'}>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, []], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+CRITICAL Beginning test case Note.test.NoteTestCase.testNext
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :register inkedmn bar
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x000000000341CC18>>, ['register'])]
+INFO register called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'bar']
+DEBUG args after <context for private>: ['inkedmn', 'bar']
+DEBUG args before <context for something>: ['inkedmn', 'bar']
+DEBUG args after <context for something>: ['bar']
+DEBUG args before <context for something>: ['bar']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['inkedmn', 'bar'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :hostmask add inkedmn test2!bar@baz
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x000000000341CC18>>, ['hostmask', 'add'])]
+INFO hostmask add called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args before <context for otherUser>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for otherUser>: ['test2!bar@baz']
+DEBUG args before <optional for something>: ['test2!bar@baz']
+DEBUG args after <optional for something>: []
+DEBUG args before <additional for something>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 'test2!bar@baz', ''], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send inkedmn testing
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000003383E80>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['inkedmn', 'testing']
+DEBUG args after <context for user>: ['inkedmn', 'testing']
+DEBUG args before <commalist for otherUser>: ['inkedmn']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['testing']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], 'testing'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :Note #1 sent to inkedmn.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG foo :You have 1 unread note; 1 that I haven't told you about before now.  #1 is still unread.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note next
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000003383E80>>, ['note', 'next'])]
+INFO note next called by "foo!bar@baz".
+DEBUG args before <context for user>: []
+DEBUG args after <context for user>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :#1: testing (Sent by inkedmn 0 seconds ago)
+CRITICAL Beginning test case Note.test.NoteTestCase.testNote
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :register inkedmn bar
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x0000000002D684E0>>, ['register'])]
+INFO register called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'bar']
+DEBUG args after <context for private>: ['inkedmn', 'bar']
+DEBUG args before <context for something>: ['inkedmn', 'bar']
+DEBUG args after <context for something>: ['bar']
+DEBUG args before <context for something>: ['bar']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['inkedmn', 'bar'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :hostmask add inkedmn test2!bar@baz
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x0000000002D684E0>>, ['hostmask', 'add'])]
+INFO hostmask add called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args before <context for otherUser>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for otherUser>: ['test2!bar@baz']
+DEBUG args before <optional for something>: ['test2!bar@baz']
+DEBUG args after <optional for something>: []
+DEBUG args before <additional for something>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 'test2!bar@baz', ''], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send inkedmn test
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x00000000030C1198>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['inkedmn', 'test']
+DEBUG args after <context for user>: ['inkedmn', 'test']
+DEBUG args before <commalist for otherUser>: ['inkedmn']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['test']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], 'test'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG foo :Note #1 sent to inkedmn.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note 1
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x00000000030C1198>>, ['note'])]
+INFO note called by "foo!bar@baz".
+DEBUG args before <context for user>: ['1']
+DEBUG args after <context for user>: ['1']
+DEBUG args before <context for ('id', 'note')>: ['1']
+DEBUG args after <context for ('id', 'note')>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 1], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :You have 1 unread note; 1 that I haven't told you about before now.  #1 is still unread.
+CRITICAL Beginning test case Note.test.NoteTestCase.testSearch
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :register inkedmn bar
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x0000000002B66C88>>, ['register'])]
+INFO register called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'bar']
+DEBUG args after <context for private>: ['inkedmn', 'bar']
+DEBUG args before <context for something>: ['inkedmn', 'bar']
+DEBUG args after <context for something>: ['bar']
+DEBUG args before <context for something>: ['bar']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['inkedmn', 'bar'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :hostmask add inkedmn test2!bar@baz
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x0000000002B66C88>>, ['hostmask', 'add'])]
+INFO hostmask add called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args before <context for otherUser>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for otherUser>: ['test2!bar@baz']
+DEBUG args before <optional for something>: ['test2!bar@baz']
+DEBUG args after <optional for something>: []
+DEBUG args before <additional for something>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 'test2!bar@baz', ''], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send inkedmn testing
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000002AC9D68>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['inkedmn', 'testing']
+DEBUG args after <context for user>: ['inkedmn', 'testing']
+DEBUG args before <commalist for otherUser>: ['inkedmn']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['testing']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], 'testing'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG foo :Note #1 sent to inkedmn.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send inkedmn 1,2,3
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000002AC9D68>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['inkedmn', '1,2,3']
+DEBUG args after <context for user>: ['inkedmn', '1,2,3']
+DEBUG args before <commalist for otherUser>: ['inkedmn']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['1,2,3']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], '1,2,3'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :You have 1 unread note; 1 that I haven't told you about before now.  #1 is still unread.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG foo :Note #2 sent to inkedmn.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note search test
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000002AC9D68>>, ['note', 'search'])]
+INFO note search called by "foo!bar@baz".
+DEBUG args before <context for user>: ['test']
+DEBUG args after <context for user>: ['test']
+DEBUG args before <getopts for {'regexp': ('regexpMatcher', True), 'sent': ''}>: ['test']
+DEBUG args after <getopts for {'regexp': ('regexpMatcher', True), 'sent': ''}>: ['test']
+DEBUG args before <additional for glob>: ['test']
+DEBUG args after <additional for glob>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [], '*test*'], kwargs={}, channel=None)
+ERROR Uncaught exception in ['note', 'search'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\commands.py", line 913, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File "plugins\Note\plugin.py", line 305, in search
+    criteria.append(re.compile(glob[:-1]).search)
+  File "c:\python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "c:\python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: unexpected end of pattern
+ERROR Exception id: 0xbedd4
+DEBUG Outgoing message: PRIVMSG foo :You have 2 unread notes; 1 that I haven't told you about before now.  #1 and #2 are still unread.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note search --regexp m/1,2/
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x0000000002AC9D68>>, ['note', 'search'])]
+INFO note search called by "foo!bar@baz".
+DEBUG args before <context for user>: ['--regexp', 'm/1,2/']
+DEBUG args after <context for user>: ['--regexp', 'm/1,2/']
+DEBUG args before <getopts for {'regexp': ('regexpMatcher', True), 'sent': ''}>: ['--regexp', 'm/1,2/']
+DEBUG opt: 'regexp', arg: 'm/1,2/'
+DEBUG args before <context for ('regexpMatcher', True)>: ['m/1,2/']
+DEBUG args after <context for ('regexpMatcher', True)>: []
+DEBUG args after <getopts for {'regexp': ('regexpMatcher', True), 'sent': ''}>: []
+DEBUG args before <additional for glob>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [('regexp', <_sre.SRE_Pattern object at 0x00000000034539B0>)], None], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :Error: error: unexpected end of pattern
+CRITICAL Beginning test case Note.test.NoteTestCase.testSendnote
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'regexp': <context for ('regexpMatcher', True)>, 'sent': None}
+DEBUG getoptL: ['regexp=', 'sent']
+DEBUG getopts: {'old': None, 'from': <context for otherUser>, 'sent': None, 'to': <context for otherUser>}
+DEBUG getoptL: ['from=', 'old', 'sent', 'to=']
+DEBUG getopts: {'capability': <context for capability>}
+DEBUG getoptL: ['capability=']
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :register inkedmn bar
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x000000000341EA90>>, ['register'])]
+INFO register called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'bar']
+DEBUG args after <context for private>: ['inkedmn', 'bar']
+DEBUG args before <context for something>: ['inkedmn', 'bar']
+DEBUG args after <context for something>: ['bar']
+DEBUG args before <context for something>: ['bar']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['inkedmn', 'bar'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :hostmask add inkedmn test2!bar@baz
+DEBUG findCallbacksForArgs: [(<User User <User.plugin.User object at 0x000000000341EA90>>, ['hostmask', 'add'])]
+INFO hostmask add called by "foo!bar@baz".
+DEBUG args before <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for private>: ['inkedmn', 'test2!bar@baz']
+DEBUG args before <context for otherUser>: ['inkedmn', 'test2!bar@baz']
+DEBUG args after <context for otherUser>: ['test2!bar@baz']
+DEBUG args before <optional for something>: ['test2!bar@baz']
+DEBUG args after <optional for something>: []
+DEBUG args before <additional for something>: []
+DEBUG Got IndexError, returning default.
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, 'test2!bar@baz', ''], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :The operation succeeded.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send inkedmn test
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x000000000341CD68>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['inkedmn', 'test']
+DEBUG args after <context for user>: ['inkedmn', 'test']
+DEBUG args before <commalist for otherUser>: ['inkedmn']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['test']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], 'test'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :Note #1 sent to inkedmn.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG foo :You have 1 unread note; 1 that I haven't told you about before now.  #1 is still unread.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send alsdkjfasldk foo
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x000000000341CD68>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['alsdkjfasldk', 'foo']
+DEBUG args after <context for user>: ['alsdkjfasldk', 'foo']
+DEBUG args before <commalist for otherUser>: ['alsdkjfasldk']
+DEBUG Error return: Error: I can't find alsdkjfasldk in my user database. If you didn't give a user name, then I might not know what your user is, and you'll need to identify before this command might work.
+DEBUG Outgoing message: PRIVMSG foo :Error: I can't find alsdkjfasldk in my user database. If you didn't give a user name, then I might not know what your user is, and you'll need to identify before this command might work.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test :note send inkedmn test2
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x000000000341CD68>>, ['note', 'send'])]
+INFO note send called by "foo!bar@baz".
+DEBUG args before <context for user>: ['inkedmn', 'test2']
+DEBUG args after <context for user>: ['inkedmn', 'test2']
+DEBUG args before <commalist for otherUser>: ['inkedmn']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['test2']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], 'test2'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG foo :Note #2 sent to inkedmn.
+DEBUG Incoming message: :foo!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG foo :You have 2 unread notes; 1 that I haven't told you about before now.  #1 and #2 are still unread.
+DEBUG Incoming message: :test2!bar@baz PRIVMSG test :note send test2 foo
+DEBUG findCallbacksForArgs: [(<Note Note <Note.plugin.Note object at 0x000000000341CD68>>, ['note', 'send'])]
+INFO note send called by "test2!bar@baz".
+DEBUG args before <context for user>: ['test2', 'foo']
+DEBUG args after <context for user>: ['test2', 'foo']
+DEBUG args before <commalist for otherUser>: ['test2']
+DEBUG args after <commalist for otherUser>: []
+DEBUG args before <context for text>: ['foo']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=[IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+, [IrcUser(id=1, ignore=False, password="", name="inkedmn", hashed=True, capabilities=UserCapabilitySet([]), hostmasks=[], secure=False)
+], 'foo'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG test2 :Note #3 sent to inkedmn.
+DEBUG Incoming message: :test2!bar@baz PRIVMSG test : 
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens [])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Outgoing message: PRIVMSG test2 :You have 3 unread notes; 1 that I haven't told you about before now.  #1, #2, and #3 are still unread.
+CRITICAL Beginning test case Quote.test.QuoteTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x000000000341CB38>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+ERROR Uncaught exception in ['kill'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "plugins\Verbs\plugin.py", line 58, in kill
+    irc.action(PickRandom(self.attacks) + " with " + PickRandom(self.weapons))
+NameError: global name 'PickRandom' is not defined
+ERROR Exception id: 0x28950
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Dict.test.DictTestCase.testDict
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :dict slash
+DEBUG findCallbacksForArgs: [(<Dict Dict <Dict.plugin.Dict object at 0x000000000341C5C0>>, ['dict'])]
+DEBUG Spawning thread Thread #6 (for Dict.['dict']) (args: (['dict'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000002D74EB8>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'dict slash')), ['slash']))
+DEBUG Spawning thread "Thread #6 (for Dict.['dict'])".
+INFO dict called by "test!user@host.domain.tld".
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG args before <many for something>: ['slash']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :dict web1913 slash
+DEBUG args after <many for something>: []
+DEBUG State before call: State(args=[['slash']], kwargs={}, channel=None)
+DEBUG findCallbacksForArgs: [(<Dict Dict <Dict.plugin.Dict object at 0x000000000341C5C0>>, ['dict'])]
+DEBUG Spawning thread Thread #7 (for Dict.['dict']) (args: (['dict'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x00000000033763C8>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'dict web1913 slash')), ['web1913', 'slash']))
+DEBUG Spawning thread "Thread #7 (for Dict.['dict'])".
+INFO dict called by "test!user@host.domain.tld".
+DEBUG registryValue got channel='test'
+DEBUG args before <many for something>: ['web1913', 'slash']
+DEBUG args after <many for something>: ['slash']
+DEBUG args before <many for something>: ['slash']
+DEBUG args after <many for something>: []
+DEBUG State before call: State(args=[['web1913', 'slash']], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG test :wn, jargon, moby-thesaurus, gcide, and foldoc responded: jargon: slash n. Common name for the slant (`/', ASCII 0101111) character. See {ASCII} for other synonyms; gcide: Slash \Slash\, v. i. To strike violently and at random, esp. with an edged instrument; to lay about one indiscriminately with blows; to cut hastily and carelessly. [1913 Webster] Hewing and slashing at their idle shades. --Spenser. (12 more messages)
+CRITICAL Beginning test case Dict.test.DictTestCase.testDictionaries
+CRITICAL Threads: MainThread and Thread #7 (for Dict.['dict'])
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :dictionaries
+DEBUG findCallbacksForArgs: [(<Dict Dict <Dict.plugin.Dict object at 0x000000000341C518>>, ['dictionaries'])]
+DEBUG Spawning thread Thread #8 (for Dict.['dictionaries']) (args: (['dictionaries'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x000000000340F6D8>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'dictionaries')), []))
+DEBUG Spawning thread "Thread #8 (for Dict.['dictionaries'])".
+INFO dictionaries called by "test!user@host.domain.tld".
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG State before call: State(args=[], kwargs={}, channel=None)
+CRITICAL Beginning test case Dict.test.DictTestCase.testDocumentation
+CRITICAL Threads: MainThread, Thread #7 (for Dict.['dict']), and Thread #8 (for Dict.['dictionaries'])
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Dict.test.DictTestCase.testRandomDictionary
+CRITICAL Threads: MainThread, Thread #7 (for Dict.['dict']), and Thread #8 (for Dict.['dictionaries'])
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :random
+DEBUG findCallbacksForArgs: [(<Dict Dict <Dict.plugin.Dict object at 0x000000000340F2B0>>, ['random'])]
+DEBUG Spawning thread Thread #9 (for Dict.['random']) (args: (['random'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000002AEFEB8>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'random')), []))
+DEBUG Spawning thread "Thread #9 (for Dict.['random'])".
+INFO random called by "test!user@host.domain.tld".
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG State before call: State(args=[], kwargs={}, channel=None)
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :dict [random] moo
+DEBUG findCallbacksForArgs: [(<Dict Dict <Dict.plugin.Dict object at 0x000000000340F2B0>>, ['random'])]
+DEBUG Spawning thread Thread #10 (for Dict.['random']) (args: (['random'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000003376A90>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'dict [random] moo')), []))
+DEBUG Spawning thread "Thread #10 (for Dict.['random'])".
+INFO random called by "test!user@host.domain.tld".
+DEBUG registryValue got channel='test'
+DEBUG State before call: State(args=[], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG test :trans
+CRITICAL Beginning test case Internet.test.InternetTestCase.testDns
+CRITICAL Threads: MainThread and Thread #10 (for Dict.['random'])
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :dns slashdot.org
+DEBUG findCallbacksForArgs: [(<Internet Internet <Internet.plugin.Internet object at 0x0000000002B778D0>>, ['dns'])]
+DEBUG Spawning thread Thread #11 (for Internet.['dns']) (args: (['dns'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000002D74E10>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'dns slashdot.org')), ['slashdot.org']))
+DEBUG Spawning thread "Thread #11 (for Internet.['dns'])".
+INFO dns called by "test!user@host.domain.tld".
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG args before <context for something>: ['slashdot.org']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :dns alsdkjfaslkdfjaslkdfj.com
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['slashdot.org'], kwargs={}, channel=None)
+DEBUG findCallbacksForArgs: [(<Internet Internet <Internet.plugin.Internet object at 0x0000000002B778D0>>, ['dns'])]
+DEBUG Spawning thread Thread #12 (for Internet.['dns']) (args: (['dns'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x000000000341C1D0>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'dns alsdkjfaslkdfjaslkdfj.com')), ['alsdkjfaslkdfjaslkdfj.com']))
+DEBUG Spawning thread "Thread #12 (for Internet.['dns'])".
+INFO dns called by "test!user@host.domain.tld".
+DEBUG args before <context for something>: ['alsdkjfaslkdfjaslkdfj.com']
+DEBUG args after <context for something>: []
+DEBUG State before call: State(args=['alsdkjfaslkdfjaslkdfj.com'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG test :216.34.181.45
+CRITICAL Beginning test case Internet.test.InternetTestCase.testDocumentation
+CRITICAL Threads: MainThread and Thread #10 (for Dict.['random'])
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Internet.test.InternetTestCase.testWhois
+CRITICAL Threads: MainThread and Thread #10 (for Dict.['random'])
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :internet whois ohio-state.edu
+DEBUG findCallbacksForArgs: [(<Internet Internet <Internet.plugin.Internet object at 0x0000000002B12860>>, ['internet', 'whois'])]
+DEBUG Spawning thread Thread #13 (for Internet.['internet', 'whois']) (args: (['internet', 'whois'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x0000000003362D30>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'internet whois ohio-state.edu')), ['ohio-state.edu']))
+DEBUG Spawning thread "Thread #13 (for Internet.['internet', 'whois'])".
+INFO internet whois called by "test!user@host.domain.tld".
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG args before <context for lowered>: ['ohio-state.edu']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :internet whois www.ohio-state.edu
+DEBUG args after <context for lowered>: []
+DEBUG State before call: State(args=['ohio-state.edu'], kwargs={}, channel=None)
+DEBUG findCallbacksForArgs: [(<Internet Internet <Internet.plugin.Internet object at 0x0000000002B12860>>, ['internet', 'whois'])]
+DEBUG Spawning thread Thread #14 (for Internet.['internet', 'whois']) (args: (['internet', 'whois'], <supybot.callbacks.NestedCommandsIrcProxy object at 0x00000000033626D8>, IrcMsg(prefix="test!user@host.domain.tld", command="PRIVMSG", args=('test', 'internet whois www.ohio-state.edu')), ['www.ohio-state.edu']))
+DEBUG Spawning thread "Thread #14 (for Internet.['internet', 'whois'])".
+INFO internet whois called by "test!user@host.domain.tld".
+DEBUG findCallbacksForArgs: []
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens ['dict', 'elements', 'moo'])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Done calling invalidCommands: Misc.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002AD5E48>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+ERROR Uncaught exception in ['kill'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "plugins\Verbs\plugin.py", line 58, in kill
+    irc.action(PickRandom(self.attacks) + " with " + PickRandom(self.weapons))
+NameError: global name 'PickRandom' is not defined
+ERROR Exception id: 0x28950
+DEBUG Outgoing message: PRIVMSG test :Error: NameError: global name 'PickRandom' is not defined
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002AC8E48>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+ERROR Uncaught exception in ['kill'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "plugins\Verbs\plugin.py", line 58, in kill
+    irc.action(self.PickRandom(self.attacks) + " with " + self.PickRandom(self.weapons))
+TypeError: PickRandom() takes exactly 1 argument (2 given)
+ERROR Exception id: 0x285c7
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002B33E48>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+ERROR Uncaught exception in ['kill'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "plugins\Verbs\plugin.py", line 58, in kill
+    irc.action(self.PickRandom(self.attacks) + " with " + self.PickRandom(self.weapons))
+TypeError: PickRandom() takes exactly 1 argument (2 given)
+ERROR Exception id: 0x285c7
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Trigger.test.TriggerTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Trigger.test.TriggerTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Trigger.test.TriggerTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.

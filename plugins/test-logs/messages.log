@@ -1,0 +1,379 @@
+ERROR Invalid user dictionary file, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\users.conf'
+ERROR Invalid channel database, resetting to empty.
+ERROR Exact error: IOError: [Errno 2] No such file or directory: 'test-conf\\channels.conf'
+WARNING Couldn't open ignore database: [Errno 2] No such file or directory: 'test-conf\\ignores.conf'
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002BFBA90>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+ERROR Uncaught exception in ['kill'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File ".\Verbs\plugin.py", line 59, in kill
+    irc.queueMsg(ircmsgs.action(msg.channel, text))
+NameError: global name 'ircmsgs' is not defined
+ERROR Exception id: 0x28950
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill
+DEBUG findCallbacksForArgs: []
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens ['kill'])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Done calling invalidCommands: Misc.
+DEBUG Outgoing message: PRIVMSG test :Error: "kill" is not a valid command.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill someone
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002F2F7F0>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['someone']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['someone'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testPhong
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :phong someone
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002F2F278>>, ['phong'])]
+INFO phong called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['someone']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['someone'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testWhatis
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :whatis something
+DEBUG findCallbacksForArgs: []
+DEBUG Calling invalidCommands.
+DEBUG Calling Misc.invalidCommand.
+DEBUG Misc.invalidCommand called (tokens ['whatis', 'something'])
+DEBUG Finished calling Misc.invalidCommand.
+DEBUG Done calling invalidCommands: Misc.
+DEBUG Outgoing message: PRIVMSG test :Error: "whatis" is not a valid command.
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill someone
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002ED4978>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['someone']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['someone'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testPhong
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :phong someone
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002ED4320>>, ['phong'])]
+INFO phong called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['someone']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['someone'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testWhatis
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :whatis something
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002ED46A0>>, ['whatis'])]
+INFO whatis called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['something']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['something'], kwargs={}, channel=None)
+ERROR Uncaught exception in ['whatis'].
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1180, in _callCommand
+    self.callCommand(command, irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\utils\python.py", line 86, in g
+    f(self, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\callbacks.py", line 1166, in callCommand
+    method(irc, msg, *args, **kwargs)
+  File "c:\python27\lib\site-packages\supybot\commands.py", line 913, in newf
+    f(self, irc, msg, args, *state.args, **state.kwargs)
+  File ".\Verbs\plugin.py", line 85, in whatis
+    if word in definitions:
+NameError: global name 'definitions' is not defined
+ERROR Exception id: 0x7799b
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.
+DEBUG getopts: {'regexp': <context for regexpMatcher>, 'by': <context for otherUser>}
+DEBUG getoptL: ['regexp=', 'by=']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testDocumentation
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testKill
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :kill someone
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002E449B0>>, ['kill'])]
+INFO kill called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['someone']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['someone'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testPhong
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :phong someone
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002E44320>>, ['phong'])]
+INFO phong called by "test!user@host.domain.tld".
+DEBUG args before <context for text>: ['someone']
+DEBUG args after <context for text>: []
+DEBUG State before call: State(args=['someone'], kwargs={}, channel=None)
+DEBUG Outgoing message: PRIVMSG test :ACTION colony-spams the systems belonging to someone
+CRITICAL Beginning test case Verbs.test.VerbsTestCase.testWhatis
+CRITICAL Threads: MainThread
+DEBUG Outgoing message: NICK :test
+DEBUG Irc.takeMsg throttling.
+DEBUG getopts: {'private': None}
+DEBUG getoptL: ['private']
+DEBUG getopts: {'on': <context for something>, 'from': <context for something>, 'regexp': <context for regexpMatcher>, 'without': <context for something>, 'in': <context for callerInGivenChannel>, 'nolimit': None, 'with': <context for something>}
+DEBUG getoptL: ['on=', 'from=', 'regexp=', 'without=', 'in=', 'nolimit', 'with=']
+DEBUG getopts: {'remove': None}
+DEBUG getoptL: ['remove']
+DEBUG getopts: {'deprecated': None}
+DEBUG getoptL: ['deprecated']
+DEBUG Incoming message: :test!user@host.domain.tld PRIVMSG test :whatis something
+DEBUG findCallbacksForArgs: [(<Verbs Verbs <Verbs.plugin.Verbs object at 0x0000000002DB7EB8>>, ['whatis'])]
+INFO whatis called by "test!user@host.domain.tld".
+DEBUG args before <optional for text>: ['something']
+DEBUG args after <optional for text>: []
+DEBUG State before call: State(args=['something'], kwargs={}, channel=None)
+DEBUG Outgoing message: USER supybot 0 * :Supybot 0.83.4.1
+INFO Shutdown initiated.
+INFO Killing Driver objects.
+INFO Killing Irc objects.
+INFO Shutdown complete.

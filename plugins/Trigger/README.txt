@@ -1,0 +1,1 @@
+Automatically replies to messages with canned responses. Can set the frequency of replies.
