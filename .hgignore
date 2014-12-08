@@ -4,3 +4,4 @@ ChancellorGerath.conf.*
 build
 data
 users.conf
+*.suo
