@@ -3,3 +3,4 @@ logs
 ChancellorGerath.conf.*
 build
 data
+users.conf
