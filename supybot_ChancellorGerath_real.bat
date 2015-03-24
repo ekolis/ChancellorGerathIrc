@@ -1,2 +1,2 @@
-start pythonw supybot ChancellorGerath.conf
+start pythonw supybot.py ChancellorGerath.conf
 exit 0
