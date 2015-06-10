@@ -235,6 +235,118 @@ class Verbs(callbacks.Plugin):
 					 "Uranus",
 					 "the sick, twisted mind of Derek Smart",
 			]
+		self.summons = [
+					 "spends 20 mana to cast 'summon greater {what}'.",
+					 "performs arcane rituals to summon {what} from {place}.",
+					 "summons {what} using a magic brew made of {bodypart} of {creature}.",
+					 "sacrifices six hundred threescore and six {creature}s to summon {what}.",
+					 "nonchalantly summons the {adjective} {what} with a wave of the hand",
+					 "draws a pentagram in {stuff} to summon {what}.",
+					 "constructs an altar out of {noun}s and summons {what}.",
+					 "chants '{latin}, {latin}, {latin}!', thereby summoning {what}.",
+			]
+		self.summonadjectives = [
+					"vile",
+					"distasteful",
+					"eldritch",
+					"horrific",
+					"horrendous",
+					"abominable",
+					"terrifying",
+			]
+		self.summonnouns = [
+					"skull",
+					"brimstone",
+					"wormwood log",
+					"cyst",
+					"crystallized soul",
+			]
+		self.summonverbs = [
+					"massacre",
+					"slaughter",
+					"ravish",
+					"plunder",
+			]
+		self.summonlatins = [
+					"veni",
+					"vidi",
+					"vici",
+					"virgo",
+					"libra",
+					"pisces",
+					"gemini",
+					"cancer",
+					"expecto",
+					"patronam",
+					"avada",
+					"kedavra",
+					"caveat",
+					"emptor",
+					"quando",
+					"omni",
+					"flunkus",
+					"moritati",
+					"semper",
+					"fidelis",
+			]
+		self.summoncreatures = [
+					"the Kraken",
+					"Satan himself",
+					"swamp rat",
+					"nubile young virgin",
+					"40 year old male virgin",
+					"Denebian slime devil",
+					"tauntaun",
+					"Phong",
+					"Drushocka",
+					"Eee",
+					"the Doctor",
+					"you",
+					"Superman",
+					"Batman",
+					"Spider-Man",
+					"the Incredible Hulk",
+			]
+		self.summonbodyparts = [
+					"eye",
+					"ear",
+					"nose",
+					"lip",
+					"genitalia",
+					"nipple",
+					"big toe",
+					"pinky finger",
+					"ring finger",
+					"heart",
+					"liver",
+					"gallbladder",
+					"spleen",
+					"appendix",
+					"brain",
+					"entrails",
+			]
+		self.summonstuffs = [
+					 "vomit",
+					 "feces",
+					 "urine",
+					 "rotting flesh",
+					 "brains",
+					 "tripe",
+					 "slime",
+					 "the void",
+			]
+		self.summonplaces = [
+					 "the depths of Hell",
+					 "outer space",
+					 "the Fortress of Solitude",
+					 "the nth dimension",
+					 "fluidic space",
+					 "the core of the earth",
+					 "thin air",
+					 "his imagination",
+					 "hyperspace",
+					 "hammer space",
+			]
 		
 	def kill(self, irc, msg, args, target):
 		"""<target>
@@ -285,7 +397,7 @@ class Verbs(callbacks.Plugin):
 	smash = wrap(smash, ['text'])
 
 	def avgn(self, irc, msg, args, game):
-		"""<game>
+		"""[<game>]
 
 		Channels the wrath of the Angry Video Game Nerd at a game.
 		If game is not specified, a random shitty game is chosen.
@@ -304,6 +416,26 @@ class Verbs(callbacks.Plugin):
 			text = text.replace("{place}", self.PickRandom(self.avgnplaces), 1)
 		irc.reply(text);
 	avgn = wrap(avgn, [optional('text')])
+
+	def summon(self, irc, msg, args, what):
+		"""<what>
+
+		Summons someone or something from who knows where...
+		"""
+		text = self.PickRandom(self.summons)
+		text = text.replace("{what}", what)
+		for i in range(0, 10): # get different words for each replacement
+			text = text.replace("{adjective}", self.PickRandom(self.summonadjectives), 1)
+			text = text.replace("{noun}", self.PickRandom(self.summonnouns), 1)
+			text = text.replace("{verb}", self.PickRandom(self.summonverbs), 1)
+			text = text.replace("{latin}", self.PickRandom(self.summonlatins), 1)
+			text = text.replace("{creature}", self.PickRandom(self.summoncreatures), 1)
+			text = text.replace("{bodypart}", self.PickRandom(self.summonbodyparts), 1)
+			text = text.replace("{stuff}", self.PickRandom(self.summonstuffs), 1)
+			text = text.replace("{place}", self.PickRandom(self.summonplaces), 1)
+		irc.queueMsg(ircmsgs.action(ircutils.replyTo(msg), text))
+		irc.noReply()
+	summon = wrap(summon, ['text'])
 	
 	def PickRandom(self, array):
 		num = self.rng.randint(0, len(array) - 1)

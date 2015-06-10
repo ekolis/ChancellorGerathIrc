@@ -77,7 +77,7 @@ class SqliteQuoteGrabsDB(object):
         if filename in self.dbs:
             return self.dbs[filename]
         if os.path.exists(filename):
-            self.dbs[filename] = sqlite.connect(filename)
+            self.dbs[filename] = sqlite3.connect(filename)
             self.dbs[filename].create_function('nickeq', 2, p)
             return self.dbs[filename]
         db = sqlite3.connect(filename)
@@ -99,10 +99,11 @@ class SqliteQuoteGrabsDB(object):
         db = self._getDb(channel)
         cursor = db.cursor()
         cursor.execute("""SELECT id, nick, quote, hostmask, added_at, added_by
-                          FROM quotegrabs WHERE id = ?""", id)
-        if cursor.rowcount == 0:
+                          FROM quotegrabs WHERE id = ?""", (id,))
+        result = cursor.fetchone()
+        if result is None:
             raise dbi.NoRecordError
-        (id, by, quote, hostmask, at, grabber) = cursor.fetchone()
+        (id, by, quote, hostmask, at, grabber) = result
         return QuoteGrabsRecord(id, by=by, text=quote, hostmask=hostmask,
                                 at=at, grabber=grabber)
 
@@ -113,20 +114,21 @@ class SqliteQuoteGrabsDB(object):
             cursor.execute("""SELECT quote FROM quotegrabs
                               WHERE nickeq(nick, ?)
                               ORDER BY random() LIMIT 1""",
-                              nick)
+                              (nick,))
         else:
             cursor.execute("""SELECT quote FROM quotegrabs
                               ORDER BY random() LIMIT 1""")
-        if cursor.rowcount == 0:
+        result = cursor.fetchone()
+        if result is None:
             raise dbi.NoRecordError
-        return cursor.fetchone()[0]
+        return result[0]
 
     def list(self, channel, nick):
         db = self._getDb(channel)
         cursor = db.cursor()
         cursor.execute("""SELECT id, quote FROM quotegrabs
                           WHERE nickeq(nick, ?)
-                          ORDER BY id DESC""", nick)
+                          ORDER BY id DESC""", (nick,))
         return [QuoteGrabsRecord(id, text=quote)
                 for (id, quote) in cursor.fetchall()]
 
@@ -135,20 +137,22 @@ class SqliteQuoteGrabsDB(object):
         cursor = db.cursor()
         cursor.execute("""SELECT quote FROM quotegrabs
                           WHERE nickeq(nick, ?)
-                          ORDER BY id DESC LIMIT 1""", nick)
-        if cursor.rowcount == 0:
+                          ORDER BY id DESC LIMIT 1""", (nick,))
+        result = cursor.fetchone()
+        if result is None:
             raise dbi.NoRecordError
-        return cursor.fetchone()[0]
+        return result[0]
 
     def select(self, channel, nick):
         db = self._getDb(channel)
         cursor = db.cursor()
         cursor.execute("""SELECT added_at FROM quotegrabs
                           WHERE nickeq(nick, ?)
-                          ORDER BY id DESC LIMIT 1""", nick)
-        if cursor.rowcount == 0:
+                          ORDER BY id DESC LIMIT 1""", (nick,))
+        result = cursor.fetchone()
+        if result is None:
             raise dbi.NoRecordError
-        return cursor.fetchone()[0]
+        return result[0]
 
     def add(self, channel, msg, by):
         db = self._getDb(channel)
@@ -157,9 +161,9 @@ class SqliteQuoteGrabsDB(object):
         # Check to see if the latest quotegrab is identical
         cursor.execute("""SELECT quote FROM quotegrabs
                           WHERE nick=?
-                          ORDER BY id DESC LIMIT 1""", msg.nick)
-        if cursor.rowcount != 0:
-            if text == cursor.fetchone()[0]:
+                          ORDER BY id DESC LIMIT 1""", (msg.nick,))
+        last = cursor.fetchone()
+        if last is not None and last[0] == text:
                 return
         cursor.execute("""INSERT INTO quotegrabs
                           VALUES (NULL, ?, ?, ?, ?, ?)""",
@@ -172,7 +176,7 @@ class SqliteQuoteGrabsDB(object):
         text = '%' + text + '%'
         cursor.execute("""SELECT id, nick, quote FROM quotegrabs
                           WHERE quote LIKE ?
-                          ORDER BY id DESC""", text)
+                          ORDER BY id DESC""", (text,))
         if cursor.rowcount == 0:
             raise dbi.NoRecordError
         return [QuoteGrabsRecord(id, text=quote, by=nick)
