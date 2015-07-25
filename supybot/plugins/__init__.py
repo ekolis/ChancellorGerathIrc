@@ -1,4 +1,4 @@
-###
+﻿###
 # Copyright (c) 2002-2005, Jeremiah Fincher
 # Copyright (c) 2008, James Vega
 # All rights reserved.
@@ -63,6 +63,8 @@ try:
             sys.modules.pop(name)
     # Now that the mx crap is gone, we can import sqlite3.
     import sqlite3
+    sqlite3.enable_callback_tracebacks(True) # lousy sqlite won't tell us our exceptions :(
+    sys.stderr = open('stderr.log', 'w') # and it dumps them to stderr
     # And now we'll put it back, even though it sucks.
     sys.modules.update(mxCrap)
     # Just in case, we'll do this as well.  It doesn't seem to work fine by

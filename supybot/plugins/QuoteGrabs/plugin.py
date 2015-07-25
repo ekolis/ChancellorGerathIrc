@@ -1,4 +1,4 @@
-###
+﻿###
 # Copyright (c) 2004, Daniel DiPaolo
 # Copyright (c) 2008, James Vega
 # All rights reserved.
@@ -114,7 +114,7 @@ class SqliteQuoteGrabsDB(object):
             cursor.execute("""SELECT quote FROM quotegrabs
                               WHERE nickeq(nick, ?)
                               ORDER BY random() LIMIT 1""",
-                              (nick,))
+                               [nick])
         else:
             cursor.execute("""SELECT quote FROM quotegrabs
                               ORDER BY random() LIMIT 1""")
@@ -128,7 +128,7 @@ class SqliteQuoteGrabsDB(object):
         cursor = db.cursor()
         cursor.execute("""SELECT id, quote FROM quotegrabs
                           WHERE nickeq(nick, ?)
-                          ORDER BY id DESC""", (nick,))
+                          ORDER BY id DESC""", [nick])
         return [QuoteGrabsRecord(id, text=quote)
                 for (id, quote) in cursor.fetchall()]
 
@@ -137,7 +137,7 @@ class SqliteQuoteGrabsDB(object):
         cursor = db.cursor()
         cursor.execute("""SELECT quote FROM quotegrabs
                           WHERE nickeq(nick, ?)
-                          ORDER BY id DESC LIMIT 1""", (nick,))
+                          ORDER BY id DESC LIMIT 1""", [nick])
         result = cursor.fetchone()
         if result is None:
             raise dbi.NoRecordError
@@ -148,7 +148,7 @@ class SqliteQuoteGrabsDB(object):
         cursor = db.cursor()
         cursor.execute("""SELECT added_at FROM quotegrabs
                           WHERE nickeq(nick, ?)
-                          ORDER BY id DESC LIMIT 1""", (nick,))
+                          ORDER BY id DESC LIMIT 1""", [nick])
         result = cursor.fetchone()
         if result is None:
             raise dbi.NoRecordError
@@ -167,7 +167,7 @@ class SqliteQuoteGrabsDB(object):
                 return
         cursor.execute("""INSERT INTO quotegrabs
                           VALUES (NULL, ?, ?, ?, ?, ?)""",
-                       msg.nick, msg.prefix, by, int(time.time()), text)
+                       [msg.nick, msg.prefix, by, int(time.time()), text])
         db.commit()
 
     def search(self, channel, text):

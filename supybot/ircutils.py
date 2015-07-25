@@ -1,4 +1,4 @@
-###
+﻿###
 # Copyright (c) 2002-2005, Jeremiah Fincher
 # All rights reserved.
 #
@@ -98,12 +98,13 @@ _rfc1459trans = string.maketrans(string.ascii_uppercase + r'\[]~',
 def toLower(s, casemapping=None):
     """s => s
     Returns the string s lowered according to IRC case rules."""
-    if casemapping is None or casemapping == 'rfc1459':
-        return s.translate(_rfc1459trans)
-    elif casemapping == 'ascii': # freenode
-        return s.lower()
-    else:
-        raise ValueError, 'Invalid casemapping: %r' % casemapping
+    # not sure why this is giving me an error TypeError: character mapping must return integer, None or unicode
+    #if casemapping is None or casemapping == 'rfc1459':
+    #    return s.translate(_rfc1459trans)
+    #elif casemapping == 'ascii': # freenode
+    return s.lower()
+    #else:
+    #    raise ValueError, 'Invalid casemapping: %r' % casemapping
 
 def strEqual(nick1, nick2):
     """s1, s2 => bool
