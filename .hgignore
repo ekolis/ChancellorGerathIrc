@@ -7,3 +7,5 @@ users.conf
 *.suo
 ChancellorGerath.conf
 *.pyc
+*.pyproj.user
+*.log
