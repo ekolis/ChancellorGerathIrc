@@ -1,4 +1,4 @@
-###
+﻿###
 # Copyright (c) 2014, Ed Kolis
 # All rights reserved.
 #
@@ -36,6 +36,7 @@ import supybot.ircmsgs as ircmsgs
 import supybot.callbacks as callbacks
 import random
 import string
+import re
 
 
 class Verbs(callbacks.Plugin):
@@ -47,16 +48,25 @@ class Verbs(callbacks.Plugin):
 		self.__parent.__init__(irc)
 		self.rng = random.Random()   # create our rng
 		self.rng.seed()   # automatically seeds with current time
-		self.attacks = [
-				"stabs",
+		self.attacks = ["stabs",
 				"bludgeons",
 				"zaps",
 				"eviscerates",
 				"decapitates",
 				"blows up",
-				"disintegrates"
-			]
+				"disintegrates"]
 		self.weapons = ["a knife", "a katana", "a bazooka", "an ICBM", "a depleted uranium cannon", "a phased polaron beam", "a wave motion gun", "a copy of MOO3", "a range check error in se5.exe"]
+		self.immortals = {
+			"obama": "You're on a list now, buddy.",
+			"president": "You're on a list now, buddy.",
+			"jesus": "Why? He'll only respawn on Sunday.",
+			"god": "Wish me luck...",
+			"the holy spirit": "Exactly how do you expect me to do that?",
+			"hitler": "But think of the consequences to the timeline!",
+			"yourself": "Kay, I'm splodin.",
+			"chancellorgerath": "Kay, I'm splodin.",
+			"me": "You should probably talk to a psychiatrist.",
+		}
 		self.phongs = ["does horrible, unspeakable things to", "does kind, pleasant things for", "offers a trade and research treaty to", "colony-spams the systems belonging to"]
 		self.definitions = {
 				# space empires games
@@ -144,7 +154,7 @@ class Verbs(callbacks.Plugin):
 				"eee": "a pretty friendly race. But don't get on their bad side. Their anti-proton beams will make you scream EEEEEEEEEEEEEEEEEE!!!",
 				"dancing phong": "the most beautiful dancers in the galaxy - go on, take a look! http://imagemodserver.duckdns.org/other/MM/SE4/otherimages/DancingPhong.gif",
 
-				# fan projects				
+				# fan projects
 				"freee": "an open-source clone of SE4 being developed by Combat Wombat and ekolis. https://bitbucket.org/ekolis/freee",
 				"eh": "Event Horizon - go ahead, ask me more on that. Or, what Canadians say at the end of every sentence. But I guess you knew that part already...",
 				"event horizon": "a simple \"4X-lite\" created by Suicide Junkie. Gather resources on a looping hex map and build ships to attack the enemy mothership. Your mothership is your only means of construction, so defend it well!",
@@ -163,8 +173,7 @@ class Verbs(callbacks.Plugin):
 				"turtling": "developing high level stellar manipulation tech, then closing all the warp points to your systems and building gravitational shields to prevent new warp points from being opened. Essentially forces the game into a stalemate, so it's generally frowned upon.",
 				"polaron man": "a superhero who can skip through shields like a polaron can. Is he a dot or is he a speck? If he's in a black hole does he get whacked? And what does Triangle Man think of him? Nobody knows...",
 			}
-		self.smashes = [
-				  "falcon PAWNCHES",
+		self.smashes = ["falcon PAWNCHES",
 				  "wombo combos",
 				  "grabs a smash ball and lays the smackdown on",
 				  "multishines numerous projectiles back at",
@@ -172,103 +181,75 @@ class Verbs(callbacks.Plugin):
 				  "spams Pikachu's down-B at",
 				  "LANDMASTER's",
 				  "shows Samus' Negative One Suit to",
-				  "plays ""truth or dair"" with",
-			]
-		self.avgngames = [
-					"Space Empires V",
+				  "plays ""truth or dair"" with",]
+		self.avgngames = ["Space Empires V",
 					"Master of Orion ]|[",
 					"Big Rigs Over the Road Racing",
-					"E.T.: The Extra-Terrestrial"
-			]
-		self.avgnquotes = [
-					 "I'd rather have {creature} {verb} in my {bodypart} than play {game}!",
+					"E.T.: The Extra-Terrestrial"]
+		self.avgnquotes = ["I'd rather have {creature} {verb} in my {bodypart} than play {game}!",
 					 "{game} is a {adjective} {noun} full of {stuff} from {place}!",
-					 "I have never seen a worse {noun} than the {adjective} pile of {stuff} that is {game}!",
-			]
-		self.avgnadjectives = [
-					"shitty",
+					 "I have never seen a worse {noun} than the {adjective} pile of {stuff} that is {game}!",]
+		self.avgnadjectives = ["shitty",
 					"rotten",
 					"disgusting",
 					"vomit-inducing",
-					"disgraceful",
-			]
-		self.avgnnouns = [
-					"turd",
+					"disgraceful",]
+		self.avgnnouns = ["turd",
 					"clusterfuck",
 					"shitpickle",
 					"blemish",
-					"abomination",
-			]
-		self.avgnverbs = [
-					"fuck",
+					"abomination",]
+		self.avgnverbs = ["fuck",
 					"shit",
 					"piss",
 					"vomit",
-					"crap",
-			]
-		self.avgncreatures = [
-					"the Kraken",
+					"crap",]
+		self.avgncreatures = ["the Kraken",
 					"Satan himself",
 					"Mecha-Hitler"
 					"my own genderswapped clone",
 					"a syphilitic whore",
-					"the ghost of Abraham Lincoln",
-			]
-		self.avgnbodyparts = [
-					"chungus",
+					"the ghost of Abraham Lincoln",]
+		self.avgnbodyparts = ["chungus",
 					"asshole",
 					"dick",
-					"throat",
-			]
-		self.avgnstuffs = [
-					 "shit",
+					"throat",]
+		self.avgnstuffs = ["shit",
 					 "poop",
 					 "piss",
 					 "vomit",
 					 "diarrhea",
 					 "crap",
 					 "garbage",
-					 "pus",
-			]
-		self.avgnplaces = [
-					 "the depths of Hell",
+					 "pus",]
+		self.avgnplaces = ["the depths of Hell",
 					 "Uranus",
-					 "the sick, twisted mind of Derek Smart",
-			]
-		self.summons = [
-					 "spends 20 mana to cast 'summon greater {what}'.",
+					 "the sick, twisted mind of Derek Smart",]
+		self.summons = ["spends 20 mana to cast 'summon greater {what}'.",
 					 "performs arcane rituals to summon {what} from {place}.",
 					 "summons {what} using a magic brew made of {bodypart} of {creature}.",
 					 "sacrifices six hundred threescore and six {creature}s to summon {what}.",
 					 "nonchalantly summons the {adjective} {what} with a wave of the hand",
 					 "draws a pentagram in {stuff} to summon {what}.",
 					 "constructs an altar out of {noun}s and summons {what}.",
-					 "chants '{latin}, {latin}, {latin}!', thereby summoning {what}.",
-			]
-		self.summonadjectives = [
-					"vile",
+					 "chants '{latin}, {latin}, {latin}!', thereby summoning {what}.",]
+		self.summonadjectives = ["vile",
 					"distasteful",
 					"eldritch",
 					"horrific",
 					"horrendous",
 					"abominable",
-					"terrifying",
-			]
-		self.summonnouns = [
-					"skull",
+					"terrifying",]
+		self.summonnouns = ["skull",
 					"brimstone",
 					"wormwood log",
 					"cyst",
-					"crystallized soul",
-			]
-		self.summonverbs = [
-					"massacre",
+					"crystallized soul",]
+		self.summonverbs = ["massacre",
 					"slaughter",
 					"ravish",
-					"plunder",
-			]
-		self.summonlatins = [
-					"veni",
+					"plunder",]
+		self.summonlatins = ["veni",
 					"vidi",
 					"vici",
 					"virgo",
@@ -287,10 +268,8 @@ class Verbs(callbacks.Plugin):
 					"flunkus",
 					"moritati",
 					"semper",
-					"fidelis",
-			]
-		self.summoncreatures = [
-					"the Kraken",
+					"fidelis",]
+		self.summoncreatures = ["the Kraken",
 					"Satan himself",
 					"swamp rat",
 					"nubile young virgin",
@@ -305,10 +284,8 @@ class Verbs(callbacks.Plugin):
 					"Superman",
 					"Batman",
 					"Spider-Man",
-					"the Incredible Hulk",
-			]
-		self.summonbodyparts = [
-					"eye",
+					"the Incredible Hulk",]
+		self.summonbodyparts = ["eye",
 					"ear",
 					"nose",
 					"lip",
@@ -323,20 +300,16 @@ class Verbs(callbacks.Plugin):
 					"spleen",
 					"appendix",
 					"brain",
-					"entrails",
-			]
-		self.summonstuffs = [
-					 "vomit",
+					"entrails",]
+		self.summonstuffs = ["vomit",
 					 "feces",
 					 "urine",
 					 "rotting flesh",
 					 "brains",
 					 "tripe",
 					 "slime",
-					 "the void",
-			]
-		self.summonplaces = [
-					 "the depths of Hell",
+					 "the void",]
+		self.summonplaces = ["the depths of Hell",
 					 "outer space",
 					 "the Fortress of Solitude",
 					 "the nth dimension",
@@ -345,14 +318,22 @@ class Verbs(callbacks.Plugin):
 					 "thin air",
 					 "his imagination",
 					 "hyperspace",
-					 "hammer space",
-			]
+					 "hammer space",]
 		
 	def kill(self, irc, msg, args, target):
 		"""<target>
 
 		"Kills" the target user or inanimate object with an action message.
 		"""
+
+		# check if target is immortal
+		ltarget = target.lower();
+		for x in self.immortals.keys():
+			if re.search(x, ltarget):
+				irc.reply(self.immortals[x]);
+				return
+
+		# OK, we can kill them
 		text = self.PickRandom(self.attacks) + " " + target + " with " + self.PickRandom(self.weapons)
 		irc.queueMsg(ircmsgs.action(ircutils.replyTo(msg), text))
 		irc.noReply()
@@ -414,7 +395,7 @@ class Verbs(callbacks.Plugin):
 			text = text.replace("{bodypart}", self.PickRandom(self.avgnbodyparts), 1)
 			text = text.replace("{stuff}", self.PickRandom(self.avgnstuffs), 1)
 			text = text.replace("{place}", self.PickRandom(self.avgnplaces), 1)
-		irc.reply(text);
+		irc.reply(text)
 	avgn = wrap(avgn, [optional('text')])
 
 	def summon(self, irc, msg, args, what):
