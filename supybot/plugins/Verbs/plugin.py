@@ -327,9 +327,9 @@ class Verbs(callbacks.Plugin):
 		"""
 
 		# check if target is immortal
-		ltarget = target.lower();
+		ltarget = target.lower(); # make sure we match a whole word
 		for x in self.immortals.keys():
-			if re.search(x, ltarget):
+			if re.search(r'\b' + x + r'\b', ltarget):
 				irc.reply(self.immortals[x]);
 				return
 
