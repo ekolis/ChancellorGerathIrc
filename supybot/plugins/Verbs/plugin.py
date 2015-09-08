@@ -48,14 +48,33 @@ class Verbs(callbacks.Plugin):
 		self.__parent.__init__(irc)
 		self.rng = random.Random()   # create our rng
 		self.rng.seed()   # automatically seeds with current time
-		self.attacks = ["stabs",
+		self.attacks = [
+				"stabs",
 				"bludgeons",
 				"zaps",
 				"eviscerates",
 				"decapitates",
 				"blows up",
-				"disintegrates"]
-		self.weapons = ["a knife", "a katana", "a bazooka", "an ICBM", "a depleted uranium cannon", "a phased polaron beam", "a wave motion gun", "a copy of MOO3", "a range check error in se5.exe"]
+				"disintegrates",
+				"flattens",
+				]
+		self.weapons = [
+			"a knife",
+		    "a katana",
+		    "a bazooka",
+		    "an ICBM",
+		    "a depleted uranium cannon",
+		    "a phased polaron beam",
+		    "a wave motion gun",
+		    "a copy of MOO3",
+		    "a range check error in se5.exe",
+			"a magma beam that fires magma from the core of a star",
+			"a +1 enchanted shard cannon of armor piercing",
+			"a futon torpedo",
+			"a cloud of Von Neumman nano-disassemblers",
+			"a trained vorpal bunny",
+			"a 9001kT weight",
+			]
 		self.immortals = {
 			"obama": "You're on a list now, buddy.",
 			"president": "You're on a list now, buddy.",
