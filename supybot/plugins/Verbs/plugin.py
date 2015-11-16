@@ -57,6 +57,8 @@ class Verbs(callbacks.Plugin):
 				"blows up",
 				"disintegrates",
 				"flattens",
+				"annihilates",
+				"vaporizes",
 				]
 		self.weapons = [
 			"a knife",
@@ -74,6 +76,11 @@ class Verbs(callbacks.Plugin):
 			"a cloud of Von Neumman nano-disassemblers",
 			"a trained vorpal bunny",
 			"a 9001kT weight",
+			"a Nerf disruptor",
+			"the Charge Kick from Megaman 5",
+			"a cross-shaped boomerang",
+			"a boomerang-shaped cross",
+			"the handyman's secret weapon: duct tape",
 			]
 		self.immortals = {
 			"obama": "You're on a list now, buddy.",
