@@ -59,6 +59,7 @@ class Verbs(callbacks.Plugin):
 				"flattens",
 				"annihilates",
 				"vaporizes",
+				"poisons",
 				]
 		self.weapons = [
 			"a knife",
@@ -81,17 +82,34 @@ class Verbs(callbacks.Plugin):
 			"a cross-shaped boomerang",
 			"a boomerang-shaped cross",
 			"the handyman's secret weapon: duct tape",
+			"Lattice's glitchy charge shot from Megaman 21XX",
+			"a lead pipe with Colonel Mustard's fingerprints on it",
+			"a plague bomb",
+			"a stellar nucleonic torpedo",
+			"a dead-cow-firing catapult",
+			"the Unholy Grail",
+			"a +6 --==*masterwork*==-- unobtanium sword of murderousness",
+			"his entire Minecraft inventory",
+			"a proton pack",
+			"a thermal detonator",
+			"a cobalt warhead",
+			"a corbomite warhead that doesn't actually exist",
+			"a fistful of neutronium ingots",
 			]
 		self.immortals = {
 			"obama": "You're on a list now, buddy.",
 			"president": "You're on a list now, buddy.",
 			"jesus": "Why? He'll only respawn on Sunday.",
 			"god": "Wish me luck...",
-			"the holy spirit": "Exactly how do you expect me to do that?",
+			"holy spirit": "Exactly how do you expect me to do that?",
 			"hitler": "But think of the consequences to the timeline!",
 			"yourself": "Kay, I'm splodin.",
 			"chancellorgerath": "Kay, I'm splodin.",
 			"me": "You should probably talk to a psychiatrist.",
+			"doctor": "OK, now he looks different and has trouble remembering things.",
+			"master": "She says you should call her 'Missy' now. Yes, 'she'.",
+			"death": "Now Dracula's pissed...",
+			"archduke": "Dude, that already happened like 100 years ago. Get with the times!",
 		}
 		self.phongs = ["does horrible, unspeakable things to", "does kind, pleasant things for", "offers a trade and research treaty to", "colony-spams the systems belonging to"]
 		self.definitions = {
