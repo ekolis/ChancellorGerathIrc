@@ -9,3 +9,5 @@ ChancellorGerath.conf
 *.pyc
 *.pyproj.user
 *.log
+backup
+Backup1
